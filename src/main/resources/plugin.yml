@@ -1,0 +1,20 @@
+name: ButtonMaintenance
+version: '1.0'
+main: xyz.naphy.buttonMaintenance.ButtonMaintenance
+api-version: '1.21'
+commands:
+  getmaintenancebutton:
+    description: Gives the player a button for maintenance-related tasks.
+    permission: buttonmaintenance.getmaintenancebutton
+  unregistermaintenancebutton:
+    description: Unregisters a maintenance button using the button's Id.
+    permission: buttonmaintenance.unregistermaintenancebutton
+  getrestorebutton:
+    description: Gives the player a button for restoring the maintenance mode.
+    permission: buttonmaintenance.getrestorebutton
+  unregisterrestorebutton:
+    description: Unregisters a restore button using the button's Id.
+    permission: buttonmaintenance.unregisterrestorebutton
+  buttonmaintenance:
+    description: Main command.
+    permission: buttonmaintenance.main
